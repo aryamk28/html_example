@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(235, 237, 239);
+}
+
+#one {
+    background-color: darkslategrey;
+    color: antiquewhite;
+}
+
+.two {
+    background-color: rgb(117, 116, 116);
+    color: rgb(242, 242, 246);
+}
+
+.three {
+    background-color: lightgray;
+}
+
+.four {
+    background-color: lightgrey;
+}
+
+.five {
+    background-color: lightgray;
+}
+
+h3 {
+    background-color: rgb(114, 113, 115);
+    color: antiquewhite;
+}
+
+article {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    background-color: lightgray;
+}
+
+section {
+    text-align: center;
+}
+
+.six {
+    background-color: lightgray;
+
+}
+
+.seven {
+    text-align: left;
+    background-color: rgb(127, 124, 124);
+    color: antiquewhite;
+}
+
+h5 {
+    background-color: lightgray;
+}
+
+footer {
+    text-align: right;
+}

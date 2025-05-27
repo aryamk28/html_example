@@ -1,0 +1,103 @@
+.one {
+    font-family: 'Courier New', Courier, monospace;
+    font: size 20px;
+    font-weight: bolder;
+    color: blueviolet;
+    text-align: center;
+}
+
+.two {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: dimgrey;
+    text-align: left;
+    font-style: italic;
+
+}
+
+.three {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: size 20px;
+    font-weight: bolder;
+    color: firebrick;
+    text-align: center;
+}
+
+.four {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: goldenrod;
+    text-align: left;
+}
+
+.five {
+    font-family: fantasy;
+    font: size 30px;
+    font-weight: bolder;
+    color: blue;
+    text-align: center;
+    background-color: coral;
+}
+
+.six {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: #000;
+    text-align: left;
+    font-style: oblique;
+}
+
+.seven {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.eight {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(23, 117, 225);
+    text-align: left;
+    font-style: unset;
+    font-display: block;
+    font-variant: small-caps;
+    font-feature-settings: "abvf";
+}
+
+.a {
+    background-color: cornflowerblue;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+.b {
+    background-color: cadetblue;
+    margin: 20px;
+    padding: 40px;
+    border: 5px dashed black;
+    border-radius: 10px;
+}
+
+.c {
+    background-color: darkkhaki;
+    margin: 20px;
+    padding: 30px;
+    border: 8px dotted black;
+    border-radius: 20px;
+}
+
+.d {
+    background-color: burlywood;
+    margin: 20px;
+    padding: 50px;
+    border: 5px double black;
+    border-radius: 40px;
+}
