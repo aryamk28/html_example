@@ -5,17 +5,24 @@
     font-size: 30px;
     font-style: oblique;
     text-align: center;
+
 }
 
 .b {
     background-color: burlywood;
     border: 5px dotted black;
-    margin: 15px;
+    margin: 50px;
     padding: 20px;
     text-align: center;
     font-size: 15px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: aliceblue;
 }
 
 p {
@@ -33,7 +40,7 @@ h3 {
 .c {
     background-color: darkkhaki;
     border: 5px dashed black;
-    margin: 15px;
+    margin: 50px;
     padding: 20px;
     text-align: center;
     font-size: 15px;
@@ -44,7 +51,7 @@ h3 {
 .d {
     background-color: darkgray;
     border: 5px double black;
-    margin: 15px;
+    margin: 50px;
     padding: 20px;
     text-align: center;
     font-size: 18px;
@@ -55,6 +62,9 @@ h3 {
 
 body {
     background-color: beige;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h5 {
@@ -64,7 +74,7 @@ h5 {
 .e {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: normal;
-    margin: 30px;
+    margin: 50px;
     font-size: small;
     font-weight: bold;
     text-align: center;
@@ -77,4 +87,8 @@ h4 {
 
 footer {
     text-align: right;
+}
+
+h3 {
+    color: black;
 }
