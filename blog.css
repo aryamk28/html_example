@@ -17,7 +17,7 @@
     font-size: 15px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(img3.jpg);
+    background-image: url(manali.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,6 +46,10 @@ h3 {
     font-size: 15px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(delhi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .d {
@@ -57,14 +61,20 @@ h3 {
     font-size: 18px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: antiquewhite;
+    background-size: cover;
 
 }
 
 body {
     background-color: beige;
-    background-image: url(image.png);
+    background-image: url(download\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 h5 {
