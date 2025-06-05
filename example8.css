@@ -1,0 +1,20 @@
+.a {
+    background-color: brown;
+    color: antiquewhite;
+    max-height: 500px;
+    max-width: 500px;
+    overflow: auto;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+.b {
+    background-color: blueviolet;
+    color: azure;
+    min-height: 100px;
+    min-width: 100px
+}

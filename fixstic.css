@@ -1,0 +1,26 @@
+.a {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.b {
+    position: sticky;
+    top: 0px;
+    right: 20px;
+}
+
+.c {
+    background-image: url(wb.jpg);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    border: 5px solid black;
+    padding: 25px;
+    margin: 10px;
+
+}
+
+body {
+    height: 3000px;
+}

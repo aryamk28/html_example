@@ -1,0 +1,49 @@
+.a {
+    background-color: black;
+    color: azure;
+    min-width: 500px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body {
+    margin: 10px;
+}
+
+.b {
+    background-color: darksalmon;
+    width: 150px;
+    border: 10px solid white;
+    padding: 10px;
+}
+
+.c {
+    background-color: darkgray;
+    width: 150px;
+    border: 10px solid white;
+    padding: 10px;
+}
+
+.d {
+    background-color: cadetblue;
+    width: 150px;
+    border: 10px solid white;
+
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+ol {
+    color: black;
+}
+
+ul {
+    color: black;
+}

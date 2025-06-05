@@ -102,3 +102,16 @@ footer {
 h3 {
     color: black;
 }
+
+.header_nav {
+    padding: 17px;
+    text-align: center;
+    background-color: blanchedalmond;
+    font-weight: bolder;
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
