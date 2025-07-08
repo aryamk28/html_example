@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 20px;
+
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {
+    color: rgb(54, 54, 54);
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+    text-align: start;
+    float: left;
+}
+
+.icons {
+    text-align: end;
+    float: right;
+    margin-left: 20px;
+
+
+
+}
+
+
+
+.plant1 {
+    margin-top: -10px;
+    background-size: contain;
+    text-align: end;
+    float: right;
+}
+
+
+.text {
+    text-align: start;
+    float: left;
+    font-size: xx-large;
+
+}
+
+.text-content {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+
+}
+
+.text-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.shop {
+    background: black;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.press-section {
+    padding: 40px 60px;
+}
+
+.press-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.press-section p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.press-logos {
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #888;
+}
+
+.long-text {
+
+    line-height: 1.6;
+    color: #333;
+    margin-top: 60px;
+    padding: 50px;
+    display: flex;
+}
+
+.long-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding-left: 170px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.learn-more {
+
+    padding: 10px;
+    margin-bottom: 15px;
+    padding-left: 600px;
+    font-weight: lighter;
+    display: flex;
+    gap: 20px;
+
+
+
+}
+
+
+
+.learn-more img {
+    float: center;
+    margin-left: 0px 15px;
+
+}
+
+.plant2 img {
+    width: 1300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 130px;
+
+
+}
+
+.contain {
+    width: 1522px;
+    height: 400px;
+    background-color: #EDEDED;
+    margin-top: -250px;
+
+}
+
+.contain h2 {
+    text-align: center;
+    padding-top: -100px;
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: -35px;
+
+
+
+
+
+
+}
+
+.contain p {
+    text-align: left;
+    align-items: center;
+    margin-left: 50px;
+    padding-right: 50px;
+    padding-top: 330px;
+    font-size: 1.2rem;
+}
+
+.contain img {
+    float: right;
+    align-items: center;
+    margin-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    margin-top: -35px;
+
+
+}
+
+.see-all {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 500px;
+
+}
+
+.three {
+
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+
+}
+
+.grid {
+    width: 750px;
+    height: 650px;
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+}
+
+.prize {
+    display: flex;
+    gap: 230px;
+    padding-left: 25px;
+
+}
+
+.prize1 {
+    display: flex;
+    gap: 230px;
+    padding-left: 465px;
+    display: flex;
+    margin-top: -17px;
+
+}
+
+.prize2 {
+    display: flex;
+    gap: 230px;
+    padding-left: 910px;
+    display: flex;
+    margin-top: -17px;
+}
+
+.prize3 {
+    display: flex;
+    gap: 230px;
+    padding-left: 1350px;
+    margin-top: -17px;
+
+}
+
+.review {
+    padding-top: 150px;
+    padding: 20px;
+    margin-top: 150px;
+
+}
+
+.review p {
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.review img {
+    padding-top: 15px;
+}
+
+.reimg {
+    display: flex;
+
+}
+
+.reimg h3 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.no {
+    margin-top: -20px;
+}
+
+.review1 {
+    display: flex;
+    padding-left: 600px;
+    margin-top: -200px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.review1 img {
+    float: right;
+    align-items: center;
+    margin-left: 250px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    margin-top: -15px;
+
+    width: 120px;
+    height: 200px;
+
+
+}
+
+.pamela {
+    padding-left: 620px;
+    padding-top: 60px;
+}
+
+.pamela p {
+    padding-top: 10px;
+}
+
+.four {
+    margin: 50px;
+    padding-left: 30px;
+    display: flex;
+    gap: 50px;
+
+
+}
+
+
+
+
+
+.last-text {
+    padding-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding-bottom: 30px;
+}
+
+.subscribe-form {
+    border-bottom: 2px solid #999;
+    display: flex;
+    float: right;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+    padding-bottom: 45px;
+    padding-right: 40px;
+    margin-top: -100px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.subscribe-form input[type="email"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding-right: 40px;
+
+}
+
+.subscribe-form button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 50px;
+    margin-left: 60px;
+    text-align: center;
+    margin: 10px 0;
+
+
+}
+
+
+
+footer a {
+    color: rgb(54, 54, 54);
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+
+}
+
+.icons1 {
+    text-align: center;
+    align-items: center;
+    float: right;
+    margin-left: 20px;
+    margin-top: -50px;
+
+
+
+
+}
+
+.logo1 {
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin-top: 10px;
+}
+
+.foot-clr {
+    background-color: #F3F3F3;
+    height: 150px;
+    width: 100%;
+    margin-top: -180px;
+
+}

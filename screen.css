@@ -1,0 +1,15 @@
+.one {
+    width: 500px;
+    height: 500px;
+    background-color: dimgrey;
+}
+
+* {
+    margin: 0px;
+}
+
+@media(max-width: 300px) {
+    .one {
+        background-color: black;
+    }
+}
