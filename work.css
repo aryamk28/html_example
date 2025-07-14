@@ -1,0 +1,176 @@
+body {
+    margin: 40px;
+}
+
+.main {
+    display: flex;
+    gap: 400px;
+}
+
+.re {
+    margin: 50px;
+}
+
+
+.r1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 32, 100);
+    background-color: rgb(238, 236, 236);
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.r2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 32, 100);
+    background-color: rgb(238, 236, 236);
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.r3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(67, 32, 100);
+    background-color: rgb(238, 236, 236);
+    padding: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+
+
+.pu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(67, 32, 100);
+    font-weight: 700;
+}
+
+.one {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.r1 {
+    animation: re 2.1s linear 0.2s infinite;
+}
+
+.r2 {
+    animation: re 2.4s linear 0.5s infinite;
+}
+
+.r3 {
+    animation: re 2.8s linear 0.8s infinite;
+}
+
+@keyframes re {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-40%);
+    }
+
+    100% {
+        transform: translateX(-80%);
+    }
+}
+
+.pm {
+    width: 50px;
+    height: 45px;
+    border-radius: 90px;
+}
+
+.pw1 {
+    width: 50px;
+    height: 45px;
+    border-radius: 90px;
+}
+
+.pw2 {
+    width: 50px;
+    height: 45px;
+    border-radius: 90px;
+}
+
+.box {
+    display: flex;
+    gap: 100px;
+}
+
+.box1 {
+    width: 350px;
+    height: 200px;
+    background-color: #4b1d33;
+    padding: 40px;
+    border-radius: 15px;
+    animation: box 1.8s linear 0.2s infinite;
+}
+
+.box2 {
+    width: 350px;
+    height: 200px;
+    background-color: #4b1d33;
+    padding: 40px;
+    border-radius: 15px;
+    animation: box 1.8s linear 0.5s infinite;
+}
+
+.box3 {
+    width: 350px;
+    height: 200px;
+    background-color: #4b1d33;
+    padding: 40px;
+    border-radius: 15px;
+    animation: box 1.8s linear 0.8s infinite;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+h3 {
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.imn1 {
+    display: flex;
+    gap: 20px;
+}
+
+.imn2 {
+    display: flex;
+    gap: 20px;
+}
+
+.imn3 {
+    display: flex;
+    gap: 20px;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes box {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

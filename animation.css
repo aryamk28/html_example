@@ -1,0 +1,36 @@
+body {
+    background-color: cornflowerblue;
+}
+
+div {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    animation: expand 1s linear 4s infinite;
+    transition: background-color 1s ease-in;
+}
+
+div:hover {
+    animation-play-state: paused;
+    background-color: coral;
+    transform: translate(45px);
+    transform: skew(45deg);
+    transform: rotate(45deg);
+}
+
+@keyframes expand {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+    }
+
+    100% {
+        width: 800;
+    }
+}
