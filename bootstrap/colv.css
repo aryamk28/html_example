@@ -1,0 +1,15 @@
+.col {
+    padding: 20px;
+    background-color: cadetblue;
+    text-align: center;
+    gap: 50px;
+}
+
+.container {
+    background-color: coral;
+    height: 200px;
+}
+
+* {
+    margin: 30px;
+}

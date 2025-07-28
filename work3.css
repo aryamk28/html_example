@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(198, 224, 216);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.blue {
+    background-color: blue;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-color: rgb(49, 49, 243);
+
+    margin: 0 auto 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5px;
+}
+
+.white {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 0 20px 20px 0;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 55px;
+    color: white;
+    font-weight: bolder;
+}
+
+h2 {
+    color: rgb(192, 189, 189);
+}
+
+h3 {
+    color: rgb(192, 189, 189);
+    font-size: 17px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(44, 44, 78);
+    color: white;
+    border-radius: 25px;
+    width: 220px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(79, 79, 109);
+}
+
+.re {
+    background-color: rgb(243, 178, 178);
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(86, 19, 19);
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.me {
+    background-color: rgb(242, 227, 183);
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(212, 161, 6);
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ve {
+    background-color: rgb(197, 245, 218);
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(4, 130, 100);
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vi {
+    background-color: rgb(203, 211, 236);
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    color: blue;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: light;
+}
+
+.black {
+    color: black;
+    font-weight: bold;
+}

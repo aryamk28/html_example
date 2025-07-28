@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="colwrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+
+<body>
+    <h1>COLUMN WRAP</h1>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 box"> Column 1</div>
+            <div class="col-5 box"> Column 2</div>
+            <div class="col-4 box">Column 3
+                Wrapped to new line
+                Since 9 + 4 = 13 > 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.
+            </div>
+            <div class="col-3 box">Column 4
+                Wrapped to new line
+                Subsequent columns continue along the new line.
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <h1>COLUMN BREAK</h1>
+    <br><br>
+    <div class="container">
+        <div class="row text-center">
+            <div class="box1 col-6 bg-warning text-white p-3">Column 1</div>
+            <div class=" box1 col-6 bg-success text-white p-3">Column 2</div>
+            <div class="w-100"></div> <!-- Force next columns to break to new line -->
+            <div class="box1 col-6 bg-danger text-white">Column 3</div>
+            <div class="box1 col-6 bg-info text-white">Column 4</div>
+        </div>
+    </div>
+    <br><br>
+    <h1>ORDER CLASS</h1>
+    <br><br>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col bg-danger text-white p-3 order-3">Column 1 (First in html visually third)</div>
+            <div class="col bg-success text-white p-3 order-1">Column 2 (Second in html visually first)</div>
+            <div class="col bg-warning text-white p-3 order-2">Column 3 (Third in html visually Second)</div>
+        </div>
+    </div>
+    <br><br>
+    <h1>RESPONSIVE REORDERING (using breaking points)</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col order-md-3 bg-primary p-3 order-1">Column A</div>
+            <div class="col order-md-1 bg-warning p-3 order-2">Column B</div>
+            <div class="col order-md-2 bg-success p-3 order-3">Column C</div>  
+        </div>  
+    </div>
+</body>
+
+</html>

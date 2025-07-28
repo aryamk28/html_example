@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="gridlayout.css">
+</head>
+
+<body>
+    <h2>Auto Layout Columns(Equal width)</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col auto-box">Column1</div>
+            <div class="col auto-box">Column2</div>
+            <div class="col auto-box">Column3</div>
+        </div>
+    </div>
+    <h2>Equal-Fixed-Equal</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col auto-box">Auto</div>
+            <div class="col-auto fixed-box">Fixed</div>
+            <div class="col auto-box">Auto</div>
+        </div>
+    </div>
+    <h2>Variable Width Content</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-auto variable-box">Text</div>
+        </div>
+    </div>
+    <h2>Responsive Breakpoints</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 responsive-box">Column1</div>
+            <div class="col-12 col-sm-6 col-md-8 col-lg-9 responsive-box">Column2</div>
+        </div>
+    </div>
+    <h2>Stacked to Horizontal</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 stacked-box">Main</div>
+            <div class="col-12 col-md-4 stacked-box">Side</div>
+        </div>
+    </div>
+    <h2>Mix and Match Rows and Columns</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-sm-4 mix-box">A</div>
+            <div class="col-6 col-sm-4 mix-box">B</div>
+            <div class="col-12 col-sm-4 mix-box">C</div>
+        </div>
+    </div>
+</body>
+
+</html>
