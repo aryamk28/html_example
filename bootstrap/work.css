@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+.one {
+    display: flex;
+
+}
+
+.b {
+    height: 600px;
+    width: 400px;
+}
+
+.f {
+    margin: 55px;
+    font-size: 55px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.im {
+    background-color: rgb(234, 234, 234);
+    height: 600px;
+    width: 400px;
+}
+
+.im img {
+    padding: 25px;
+    padding-top: 30px;
+    object-fit: cover;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+text {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    width: 300px;
+
+}
+
+.text p {
+    margin-top: 60px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    gap: 10px;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.btn:hover {
+    background-color: rgb(59, 58, 58);
+}
+
+.o {
+    background-color: orange;
+    height: 50px;
+    width: 40px;
+}
+
+.or {
+    display: flex;
+}
+
+.y {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.three {
+    display: flex;
+}
+
+.he {
+    height: 372px;
+    width: 600px;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.he p {
+    font-size: 17px;
+    gap: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fo h1 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+.fo p {
+    font-size: 17px;
+    gap: 10px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foo {
+    display: flex;
+    gap: 250px;
+}
+
+.sy {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.co {
+    gap: 220px;
+}

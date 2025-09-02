@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form_example</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tab.css">
+</head>
+
+<body>
+    <h1 class="text-center text-danger">FORMS</h1>
+    <br>
+    <div class="mb-3 container">
+        <h2 class="text-success">1. OVERVIEW (Enabled)</h2>
+        <br><br>
+        <form action="">
+            <label class="form-label">Name:</label>
+            <input type="text" class="form-control" placeholder="Enter Your Name">
+            <label class="form-label">E-mail Address:</label>
+            <input type="email" class="form-control" placeholder="Enter Your E-mail ID">
+            <label class="form-label">Password:</label>
+            <input type="password" class="form-control" placeholder="Enter Password">
+            <label class="form-label">Confirm Password:</label>
+            <input type="password" class="form-control" placeholder="Confirm Password">
+    </div>
+    </div>
+    <div class="form-check mb-3 container">
+        <input type="checkbox" class="form-check-input">
+        <label class="form-check-label">I accept all cookies</label>
+        <br>
+        <button class="btn btn-primary" type="submit">SUBMIT</button>
+    </div>
+    </form>
+
+    <br>
+    <br><br><br>
+    <div class="mb-3 container">
+        <h2 class="text-success">2. EXAMPLE FOR DISABLED</h2>
+        <br><br>
+
+        <form action="">
+            <fieldset disabled>
+                <label for="disabledTextInput" class="form-label">Name:</label>
+                <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter Your Name">
+                <label class="form-label">E-mail Address:</label>
+                <input type="email" class="form-control" placeholder="Enter Your E-mail ID">
+                <label class="form-label">Password:</label>
+                <input type="password" class="form-control" placeholder="Enter Password">
+                <label class="form-label">Confirm Password:</label>
+                <input type="password" class="form-control" placeholder="Confirm Password">
+    </div>
+    </fieldset>
+    <fieldset disabled>
+        <div class="form-check mb-3 container">
+            <input type="checkbox" class="form-check-input" id="disabledFieldsetCheck" disabled>
+            <label class="form-check-label">I accept all cookies</label>
+            <br>
+            <button class="btn btn-primary" type="submit">SUBMIT</button>
+        </div>
+    </fieldset>
+    </form>
+    <br>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">3. FORM CONTROL (Text-Area & Selection )</h2>
+            <br><br>
+            <form action="">
+                <label class="form-label">Name:</label>
+                <input type="text" class="form-control" placeholder="Enter Your Name">
+                <label class="form-label">E-mail Address:</label>
+                <input type="email" class="form-control" placeholder="Enter Your E-mail ID">
+                <label class="form-label">Enter your feedback:</label>
+                <textarea name="" class="form-control" placeholder="Feedback" rows="4" id=""></textarea>
+                <label class="form-label">Select the subjects:</label>
+                <select class="form-control">
+                    <option value="">Select from the list</option>
+                    <option value="">CSS</option>
+                    <option value="">JAVA</option>
+                    <option value="">JAVA-SCRIPT</option>
+                    <option value="">C</option>
+                    <option value="">C++</option>
+                    <option value="">DBMS</option>
+                    <option value="">PYTHON</option>
+                    <option value="">LINUX</option>
+                </select>
+        </div>
+        <div class="form-check mb-3">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label">I accept all cookies</label>
+            <br>
+            <button class="btn btn-primary" type="submit">SUBMIT</button>
+        </div>
+        </form>
+    </div>
+    <br>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">4. FORM CONTROL ( Sizing )</h2>
+            <br><br>
+            <form action="">
+                <label class="form-label ">Name:</label>
+                <input type="text" class="form-control form-control-lg" placeholder="Enter Your Name (Large)">
+                <label class="form-label">Age:</label>
+                <input type="text" class="form-control" placeholder="Enter Your Age (Medium-Default)">
+                <label class="form-label ">Subject:</label>
+                <input type="text" class="form-control form-control-sm" placeholder="Enter Your Subject (Small)">
+        </div>
+        </form>
+    </div>
+    <br>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">5. FORM TEXT</h2>
+            <br><br>
+            <form action="">
+                <label class="form-label">
+                    Password
+                </label>
+                <input type="password" class="form-control" placeholder="Enter the password">
+                <label class="form-label">
+                    <div class="form-text">Your password must be 8-20 characters long, contain letters and numbers, and
+                        must not contain spaces, special characters, or emoji.</div>
+                    Confirm Password
+                </label>
+                <input type="password" class="form-control" placeholder="Confirm the password">
+                <br>
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">6. DISABLED</h2>
+            <br><br>
+            <form action="">
+                <input type="text" class="form-control" placeholder="Disabled-Input" disabled><br>
+                <input type="text" class="form-control" placeholder="Enter Your Name">
+            </form>
+        </div>
+    </div>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">7. READ-ONLY</h2>
+            <br><br>
+            <form action="">
+                <input type="text" class="form-control" placeholder="Read-only input" readonly>
+                <br>
+                <input type="text" class="form-control" placeholder="Enter Your Name">
+            </form>
+        </div>
+    </div>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">8. READONLY-PLAIN TEXT</h2>
+            <br><br>
+            <form action="">
+                <label class="form-label">E-Mail:</label>
+                <input type="email" readonly class="form-control-plaintext" value="email@example.com">
+                <label class="form-label">E-Mail:</label>
+                <input type="email" class="form-control" placeholder="Enter your Email ID">
+            </form>
+        </div>
+    </div>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">9. FILE INPUT</h2>
+            <br><br>
+            <h4 class="text-warning">9.1 DEFAULT</h4>
+            <br>
+            <form action="">
+                <label for="" class="form-label">Choose a File:</label>
+                <input type="file" class="form-control">
+            </form>
+            <br>
+            <h4 class="text-warning">9.2 MULTIPLE</h4>
+            <br>
+            <form action="">
+                <label for="" class="form-label">Choose a File:</label>
+                <input type="file" class="form-control" multiple>
+            </form>
+            <br>
+            <h4 class="text-warning">9.3 DISABLED</h4>
+            <br>
+            <form action="">
+                <label for="" class="form-label">Choose a File:</label>
+                <input type="file" class="form-control" disabled>
+            </form>
+            <br>
+            <h4 class="text-warning">9.4 SMALL FILE</h4>
+            <br>
+            <form action="">
+                <label for="" class="form-label">Choose a File:</label>
+                <input type="file" class="form-control form-control-sm">
+            </form>
+            <br>
+            <h4 class="text-warning">9.5 LARGE FILE</h4>
+            <br>
+            <form action="">
+                <label for="" class="form-label">Choose a File:</label>
+                <input type="file" class="form-control form-control-lg">
+            </form>
+            <br>
+        </div>
+    </div>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">10. COLOR</h2>
+            <br><br>
+            <form action="">
+                <label for="" class="form-label">Select a colour:</label>
+                <input type="color" class="form-control form-control-color" value="#808080">
+            </form>
+        </div>
+    </div>
+    <div class="container p-4">
+        <div class="mb-3">
+            <h2 class="text-success">11. DATALIST</h2>
+            <br><br>
+            <form action="">
+                <label class="form-label">Select the City:</label>
+                <input list="cities" class="form-control" name="" placeholder="Type to Search">
+                <datalist id="cities">
+                    <option value="Amsterdam"></option>
+                    <option value="Washington D.C"></option>
+                    <option value="New York City"></option>
+                    <option value="San-Fransisco"></option>
+                    <option value="Chicago"></option>
+                </datalist>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

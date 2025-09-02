@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="code.css">
+</head>
+
+<body>
+    <br><br>
+    <h1>1. PARAGRAPH</h1>
+    <br>
+    <p>This is an example paragraph.</p>
+    <br><br>
+    <h1>2. LINK</h1>
+    <br>
+    <a href="#" class="text-success">This is an example link</a><br><br>
+    <a href="#" class="text-primary" style="--bs-link-opacity: .5">This is an example link</a><br><br><br>
+    <h1>3. PLACEHOLDER</h1>
+    <br>
+    <a>This is a placeholder link</a>
+    <br><br><br>
+    <h1>4. HR</h1>
+    <br>
+    <hr>
+
+    <div class="text-success">
+        <hr>
+    </div>
+
+    <hr class="border border-danger border-2 opacity-50">
+    <hr class="border border-primary border-3 opacity-75">
+    <br><br><br>
+    <h1>5. INLINE CODE</h1>
+    <br>
+    <code>&lt;section&gt;</code> should be wrapped as inline.
+    <br><br><br>
+    <h1>6. CODE BLOCKS</h1>
+    <br>
+    <p>Sample text here...</p>
+    <p>And another line of sample text here...</p>
+    <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+&lt;p&gt;And another line of sample text here...&lt;/p&gt;
+</code></pre>
+    <br><br>
+    <h1>7. VARIABLE</h1>
+    <br>
+    <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+    <br><br><br>
+    <h1>8. USER INPUT</h1>
+    <br>
+    To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+    To edit settings, press <kbd><kbd>Ctrl</kbd> + <kbd>,</kbd></kbd>
+    <br><br><br>
+    <h1>9. SAMPLE OUTPUT</h1>
+    <br>
+    <samp>This text is meant to be treated as sample output from a computer program.</samp>
+    <br><br><br>
+    <h1>10. TABLE</h1>
+    <br>
+    <table>
+        <caption>
+            This is an example table, and this is its caption to describe the contents.
+        </caption>
+        <thead>
+            <tr>
+                <th>ROLL NO</th>
+                <th>NAME</th>
+                <th>MARK 1</th>
+                <th>MARK 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aadish</td>
+                <td>20</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Aaragh</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Abhiram</td>
+                <td>18.5</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+    <h1>11. HEADING</h1>
+    <br>
+    <h1>h1. Bootstrap heading</h1>
+    <h2>h2. Bootstrap heading</h2>
+    <h3>h3. Bootstrap heading</h3>
+    <h4>h4. Bootstrap heading</h4>
+    <h5>h5. Bootstrap heading</h5>
+    <h6>h6. Bootstrap heading</h6>
+    <br><br><br>
+    <div class="text-start">
+        <h1>12. CUSTOMISING HEADING</h1>
+        <br>
+        <h1>Heading 1 <br><small class="text-capitalize">This is an example for capitalize</small></h1>
+        <h1>Heading 2 <br><small class="text-muted">This is an example for text muted</small></h1>
+        <h1>Heading 3 <br><small class="text-lowercase">THIS IS AN EXAMPLE FOR LOWERCASE</small></h1>
+        <h1>Heading 4 <br><small class="text-uppercase">this is an example for uppercase</small></h1>
+        <h1>Heading 5 <br><small class="text-truncate">this is an example for truncate</small></h1>
+    </div>
+    <br><br><br>
+    <h1>13. DISPLAY</h1>
+    <br>
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+    <h1 class="display-5">Display 5</h1>
+    <h1 class="display-6">Display 6</h1>
+    <br><br><br>
+    <h1>14. LEAD</h1>
+    <br>
+    <p class="lead">
+        This is a lead paragraph. It stands out from regular paragraphs.
+    </p>
+    <br><br><br>
+    <h1>15. INLINE TEXT ELEMENTS</h1>
+    <br>
+    <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+    <p><del>deleted text.</del> using del tag</p>
+    <p><s>This line of text is meant to be treated as no longer accurate.</s> using ins tag</p>
+    <p><ins>Inserted Text</ins>using ins tag</p>
+    <p><u>Underlined Text.</u>using u tag</p>
+    <p><small>Smaller text</small>using small tag</p>
+    <p><strong>Bold text.</strong>using strong tag</p>
+    <p><em>Italicized text.</em>using em tag we can also use "i"</p>
+    <br><br><br>
+    <h1>16. ABBREVATIONS</h1>
+    <br>
+    <p><abbr title="attribute">attr</abbr></p>
+    <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+    <br><br><br>
+    <h1>17. BLOCK QUOTE</h1>
+    <br>
+    <blockquote class="blockquote">
+        <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <br><br><br>
+    <h1>18. NAMING A SOURCE</h1>
+    <br>
+    <figure>
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+    </figure>
+    <br><br><br>
+    <h1>19. ALIGNMENT</h1>
+    <br>
+    <figure class="text-start">
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+    </figure>
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+    </figure>
+    <figure class="text-end">
+        <blockquote class="blockquote">
+            <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+    </figure>
+    <br><br><br>
+    <blockquote class="blockquote text-start">left aligned blockquote</blockquote>
+    <blockquote class="blockquote text-center">center aligned blockquote</blockquote>
+    <blockquote class="blockquote text-end">right aligned blockquote</blockquote>
+    <br><br><br>
+    <h1>20. HEADING ALIGNMENT</h1>
+    <br>
+    <h3 class="text-start bg-light p-2 border">LEFT ALIGNED HEADING</h3>
+    <h3 class="text-center bg-light p-2 border">CENTER ALIGNED HEADING</h3>
+    <h3 class="text-end bg-light p-2 border">RIGHT ALIGNED HEADING</h3>
+    <br><br><br>
+    <h1>21. PARAGRAPH ALIGNMENT</h1>
+    <br>
+    <p class="text-start bg-gradient p-2">This is a leftt aligned paragraph. Bootstrap uses <code>text-start</code>to
+        align
+        a content to
+        leftt side of the
+        window.</p>
+    <br>
+    <p class="text-center bg-gradient p-2">This is a center aligned paragraph. Bootstrap uses <code>text-center</code>to
+        align a content
+        to center of the
+        window.</p>
+    <br>
+    <p class="text-end bg-gradient p-2">This is a right aligned paragraph. Bootstrap uses <code>text-leftt</code>to
+        align
+        a
+        content to
+        right side of the
+        window.</p>
+    <br>
+    <br><br><br>
+    <h1>22. LIST - UNSTYLED</h1>
+    <br>
+    <ul class="list-unstyled text-start">
+        <li>This is a list.</li>
+        <li>It appears completely unstyled.</li>
+        <li>Structurally, it’s still a list.</li>
+        <li>However, this style only applies to immediate child elements.</li>
+        <li>Nested lists:
+            <ul>
+                <li>are unaffected by this style</li>
+                <li>will still show a bullet</li>
+                <li>and have appropriate left margin</li>
+            </ul>
+        </li>
+        <li>This may still come in handy in some situations.</li>
+    </ul>
+    <br><br><br>
+    <h1>23. LIST INLINE</h1>
+    <br>
+    <ul class="list-inline">
+        <li class="list-inline-item">This is a list item.</li>
+        <li class="list-inline-item">And another one.</li>
+        <li class="list-inline-item">But they’re displayed inline.</li>
+    </ul>
+    <br><br><br>
+
+    <br><br><br>
+    <dl class="row">
+        <dt class="col-sm-3">Term</dt>
+        <dd class="col-sm-9">Definition for term</dd>
+
+    </dl>
+    <h1>24. DESCRIPTION LIST ALIGNMENT</h1>
+    <br>
+
+    <dl class="row ">
+        <dt class="col-sm-3 ">Description lists</dt>
+        <dd class="col-sm-11">A description list is perfect for defining terms.</dd>
+    </dl>
+    <hr>
+    <dt class="col-sm-3">Term</dt>
+    <dd class="col-sm-11">
+        <p>Definition for the term.</p>
+        <p>And some more placeholder definition text.</p>
+    </dd>
+    <hr>
+    <dt class="col-sm-3">Another term</dt>
+    <dd class="col-sm-11">This definition is short, so no extra paragraphs or anything.</dd>
+    <hr>
+    <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+    <dd class="col-sm-11">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+    <hr>
+    <dt class="col-sm-3">Nesting</dt>
+    <dd class="col-sm-9">
+        <dl class="row">
+            <dt class="col-sm-3">Nested definition list</dt>
+            <dd class="col-sm-11">I heard you like definition lists. Let me put a definition list inside your
+                definition list.</dd>
+        </dl>
+    </dd>
+    </dl>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container shadow mt-5">
+        <h1 class="text-danger text-center">CHECKBOXES, RADIOS, SWITCHES AND TOGGLE BUTTONS</h1>
+        <br><br>
+        <h3 class="text-success">1. CHECKBOXES</h3>
+        <br><br>
+        <h5 class="text-warning">1.1 UNCHECKED / DEFAULT</h5>
+        <br>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label for="" class="form-check-label">Default checkbox</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">1.2 CHECKED</h5>
+        <br>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" checked>
+            <label for="" class="form-check-label">Checked checkbox</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">1.3 DISABLED</h5>
+        <br>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" disabled>
+            <label for="" class="form-check-label">Disabled checkbox</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">1.4 INDETERMINATE / INTERMEDIATE (Added with JS)</h5>
+        <br>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label for="" class="form-check-label">Intermediate checkbox</label>
+        </div>
+        <br><br><br>
+        <h3 class="text-success">2. RADIO</h3>
+        <br><br>
+        <h5 class="text-warning">2.1 UNCHECKED / DEFAULT</h5>
+        <br>
+        <div class="form-check">
+            <input type="radio" name="" id="" class="form-check-input">
+            <label for="" class="form-check-label">Default Radiobox</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">2.2 CHECKED</h5>
+        <br>
+        <div class="form-check">
+            <input type="radio" name="" id="" class="form-check-input" checked>
+            <label for="" class="form-check-label">Checked Radiobox</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">2.3 DISABLED</h5>
+        <br>
+        <div class="form-check">
+            <input type="radio" name="" id="" class="form-check-input" disabled>
+            <label for="" class="form-check-label">Disabled Radiobox</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">2.4 DISABLED + CHECKED</h5>
+        <br>
+        <div class="form-check">
+            <input type="radio" name="" id="" class="form-check-input" disabled checked>
+            <label for="" class="form-check-label">Disabled + Checked Radiobox</label>
+        </div>
+        <br><br><br>
+        <h3 class="text-success">3. SWITCHES</h3>
+        <br><br>
+        <h5 class="text-warning">3.1 DEFAULT / UNCHECKED</h5>
+        <br>
+        <div class="form-check form-switch">
+            <input type="checkbox" name="" id="" class="form-check-input" role="switch">
+            <label for="" class="form-check-label">Default Switch</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">3.2 CHECKED</h5>
+        <br>
+        <div class="form-check form-switch">
+            <input type="checkbox" name="" id="" class="form-check-input" role="switch" checked>
+            <label for="" class="form-check-label">Checked Switch</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">3.3 NATIVE</h5>
+        <br>
+        <div class="form-check form-switch">
+            <input type="checkbox" name="" id="" class="form-check-input" switch>
+            <label for="" class="form-check-label">Native Switch</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">3.4 DEFAULT-STACKED</h5>
+        <br>
+        <div class="form-check form-switch">
+            <input type="checkbox" name="" id="" class="form-check-input" role="switch">
+            <label for="" class="form-check-label">Default Switch 1</label>
+        </div>
+        <div class="form-check form-switch">
+            <input type="checkbox" name="" id="" class="form-check-input" role="switch">
+            <label for="" class="form-check-label">Default Switch 2</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">3.5 INLINE SWITCHES</h5>
+        <br>
+        <div class="form-check form-switch form-check-inline">
+            <input type="checkbox" name="" id="" class="form-check-input" role="switch">
+            <label for="" class="form-check-label">Inline Switch 1</label>
+        </div>
+        <div class="form-check form-switch form-check-inline">
+            <input type="checkbox" name="" id="" class="form-check-input" role="switch" checked>
+            <label for="" class="form-check-label">Inline Switch 2</label>
+        </div>
+        <div class="form-check form-switch form-check-inline">
+            <input type="checkbox" name="" id="" class="form-check-input" role="switch" disabled>
+            <label for="" class="form-check-label">Inline Switch 3</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">3.6 REVERSE SWITCHES</h5>
+        <br>
+        <div class="form-check form-switch form-check-reverse">
+            <input type="checkbox" class="form-check-input" role="switch">
+            <label for="" class="form-check-label">Reverse Switch 1</label>
+        </div>
+        <div class="form-check form-switch form-check-reverse">
+            <input type="checkbox" class="form-check-input" role="switch" checked>
+            <label for="" class="form-check-label">Reverse Switch 2</label>
+        </div>
+        <div class="form-check form-switch form-check-reverse">
+            <input type="checkbox" class="form-check-input" role="switch" disabled>
+            <label for="" class="form-check-label">Reverse Switch 1</label>
+        </div>
+        <br><br>
+        <h5 class="text-warning">3.7 SWITCHES WITHOUT LABELS</h5>
+        <br>
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" role="switch">
+        </div>
+        <br><br><br>
+        <h3 class="text-success">4.TOGGLE BUTTONS</h3>
+        <br><br>
+        <h5 class="text-warning">4.1 CHECKBOX TOGGLE BUTTON</h5>
+        <br>
+        <input type="checkbox" class="btn-check" autocomplete="off">
+        <label for="" class="btn btn-primary">Toggle Button</label>
+        <input type="checkbox" class="btn-check" autocomplete="off" checked>
+        <label for="" class="btn btn-primary">Checked Toggle Button</label>
+        <input type="checkbox" class="btn-check" autocomplete="off" disabled>
+        <label for="" class="btn btn-primary">Disabled Toggle Button</label>
+        <br>
+        <br>
+        <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+        <label for="btn-check" class="btn btn-check-4">Toggle Button</label>
+        <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off" checked>
+        <label for="btn-check-2" class="btn btn-check-2">Toggle Button</label>
+        <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off">
+        <label for="btn-check-3" class="btn btn-check-3">Toggle Button</label>
+        <br><br>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>

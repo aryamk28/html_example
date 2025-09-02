@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tab.css">
+
+</head>
+
+<body>
+    <h2 class="text-white bg-black text-center">OVERVIEW</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>John</td>
+                <td>Doe</td>
+                <td>@social</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <hr>
+    <h2 class="text-center"> OVERVIEW-EXAMPLE</h2>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>STUDENT</th>
+                    <th>MARKS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Arun</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Manu</td>
+                    <td>83</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pranav</td>
+                    <td>87</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        <hr>
+        <h2 class="text-center"> VARIANTS-EXAMPLE</h2>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr class="table-dark">
+                        <th>#</th>
+                        <th>STUDENT</th>
+                        <th>MARK</th>
+                        <th>STATUS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-danger">
+                        <td>1</td>
+                        <td>Ashika</td>
+                        <td>55</td>
+                        <td>Just-Passed</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td>2</td>
+                        <td>Arunima</td>
+                        <td>65</td>
+                        <td>Passed</td>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td>3</td>
+                        <td>Akaansha</td>
+                        <td>30</td>
+                        <td>Re-test</td>
+                    </tr>
+                    <tr class="table-primary">
+                        <td>4</td>
+                        <td>Mrunal</td>
+                        <td>70</td>
+                        <td>Great</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td>5</td>
+                        <td>Natasha</td>
+                        <td>14</td>
+                        <td>Failed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br><br>
+        <hr>
+        <h2 class="text-center"> STRIPPED-EXAMPLE (ROW)</h2>
+
+        Use <code>.table-striped </code>to add zebra-striping to any table row within the <tbody>.
+            <div class="container">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NAME</th>
+                            <th>GRADE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Arun</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Basil</td>
+                            <td>C</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Aju</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Manu</td>
+                            <td>A</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center"> STRIPPED-EXAMPLE (COLUMN)</h2>
+            Use <code>.table-striped-columns</code> to add zebra-striping to any table column.
+            <div class="container">
+                <table class="table table-striped-columns">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NAME</th>
+                            <th>BRANCH</th>
+                            <th>SELECTED</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Alan</td>
+                            <td>Science</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Alex</td>
+                            <td>Commerce</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ajay</td>
+                            <td>Computer-Science</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Sam</td>
+                            <td>Humanities</td>
+                            <td>Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center"> HOVERABLE ROWS-EXAMPLE</h2>
+            <p>Add <code>.table-hover</code> to enable a hover state on table rows within a <code>< tbody>.</code></p>
+            <div class="container">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NAME</th>
+                            <th>MARK-1</th>
+                            <th>MARK-2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Akshay</td>
+                            <td>45</td>
+                            <td>36</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Akash</td>
+                            <td>44</td>
+                            <td>35</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Arjun</td>
+                            <td>22</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Ashish</td>
+                            <td>21</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">ACTIVE TABLE-EXAMPLE</h2>
+            <p>Highlight a table row or cell by adding a <code> .table-active </code>class.</p>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NAME</th>
+                            <th>PHONE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-active">
+                            <td>1</td>
+                            <td>Ameg</td>
+                            <td>789655234</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Ashwin</td>
+                            <td>895412367</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Abhishek</td>
+                            <td>956842310</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Bonny</td>
+                            <td class="table-active">8974512360</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">BORDER TABLES</h2>
+            <p>Add <code> .table-bordered </code> for borders on all sides of the table and cells.</p>
+            <div class="container">
+                <table class="table table-bordered">
+                    <thead class="text-center">
+                        <tr>
+                            <th>#</th>
+                            <th>ITEM</th>
+                            <th>PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>1</td>
+                            <td>Sunscreen</td>
+                            <td>500/-</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Moisturizer</td>
+                            <td>450/-</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Serum</td>
+                            <td>899/-</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Lip Balm</td>
+                            <td>200/-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">BORDER TABLES(WITH COLOUR)</h2>
+            <p>Border color utilities can be added to change colors</p>
+            <div class="container">
+                <table class="table table-bordered border-danger">
+                    <thead class="text-center">
+                        <tr>
+                            <th>#</th>
+                            <th>ITEM</th>
+                            <th>PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>1</td>
+                            <td>Sunscreen</td>
+                            <td>500/-</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Moisturizer</td>
+                            <td>450/-</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Serum</td>
+                            <td>899/-</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Lip Balm</td>
+                            <td>200/-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">BORDER TABLES(WITH COLOUR)</h2>
+            <div class="container">
+                <table class="table table-bordered border-dark table-success">
+                    <thead class="text-center">
+                        <tr>
+                            <th>#</th>
+                            <th>ITEM</th>
+                            <th>PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>1</td>
+                            <td>Sunscreen</td>
+                            <td>500/-</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Moisturizer</td>
+                            <td>450/-</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Serum</td>
+                            <td>899/-</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Lip Balm</td>
+                            <td>200/-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">TABLE WITHOUT BORDER</h2>
+            <p>Add <code>.table-borderless </code>for a table without borders.</p>
+            <div class="container">
+                <table class="table table-borderless table-info">
+                    <thead class="text-center">
+                        <tr>
+                            <th>#</th>
+                            <th>ITEM</th>
+                            <th>PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>1</td>
+                            <td>Sunscreen</td>
+                            <td>500/-</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Moisturizer</td>
+                            <td>450/-</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Serum</td>
+                            <td>899/-</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Lip Balm</td>
+                            <td>200/-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">SMALL TABLE</h2>
+            <p>Add <code>.table-sm</code> to make any <code> .table</code> more compact by cutting all cell
+                <code> padding </code>in half.
+            </p>
+            <div class="container">
+                <table class="table table-sm table-secondary border-black">
+                    <thead class="text-center">
+                        <tr>
+                            <th>#</th>
+                            <th>ITEM</th>
+                            <th>PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center">
+                        <tr>
+                            <td>1</td>
+                            <td>Sunscreen</td>
+                            <td>500/-</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Moisturizer</td>
+                            <td>450/-</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Serum</td>
+                            <td>899/-</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Lip Balm</td>
+                            <td>200/-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">TABLE GROUP DIVIDERS</h2>
+            <p>Add a thicker border, darker between table groups— <code>< thead></code> ,
+                <code>< tbody> </code> , and
+                <code>< tfoot> </code> —with <code>.table-group-divider.</code> Customize the color by changing the
+                border-top-color (which we
+                don’t
+                currently provide a utility class for at this time).
+            </p>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NAME</th>
+                            <th>PHONE</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>1</td>
+                            <td>Ameg</td>
+                            <td>789655234</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Ashwin</td>
+                            <td>895412367</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Abhishek</td>
+                            <td>956842310</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Bonny</td>
+                            <td>8974512360</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">VERTICAL ALLIGNMENT</h2>
+            <p>Table cells of <code> < thead></code> are always vertical aligned to the bottom. Table cells in
+                <code> < tbody> </code>
+                inherit their alignment from <code> < table> </code> and are aligned to the top by default. Use the
+                vertical align
+                classes to re-align where needed.
+
+            </p>
+            <div class="table-responsive">
+
+                <table class="table align-middle">
+                    <thead>
+                        <tr>
+                            <th>TOP</th>
+                            <th>BOTTOM</th>
+                            <th>CENTER</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="height:100px;">
+                            <td class="align-top bg-danger">Top aligned </td>
+                            <td class="align-middle bg-info">Middle aligned </td>
+                            <td class="align-bottom bg-success">Bottom aligned </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <br><br>
+            <hr>
+            <h2 class="text-center">NESTING</h2>
+            Border styles, active styles, and table variants are not inherited by nested tables.
+            <div>
+                <table class="table table-bordered border-dark table-success table-striped">
+
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NAME</th>
+                            <th>MARK</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Arun</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+
+                            <td colspan="3">
+                                <table class=" table table-sm table-borderless table-danger">
+                                    <thead>
+                                        <tr>
+                                            <th>SKILL</th>
+                                            <th>EXPERIENCE</th>
+                                            <th>LEVEL</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>CSS</td>
+                                            <td>1 Year</td>
+                                            <td>Beginner</td>
+                                        </tr>
+                                        <tr>
+                                            <td>HTML</td>
+                                            <td>3 Years</td>
+                                            <td>Advanced</td>
+                                        </tr>
+                                        <tr>
+                                            <td>JAVA</td>
+                                            <td>7 Years</td>
+                                            <td>EXpert</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Akhil</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br><br><br>
+            <h1 class="text-center">ANATOMY</h1>
+            <br><br>
+            <h2 class="text-center">TABLE HEAD</h2>
+            <p>Similar to tables and dark tables, use the modifier classes <code>.table-light</code> or
+                <code>  .table-dark </code> to make <code> < thead>s </code> appear light or dark gray.
+            </p>
+            <div class="container">
+                <table class="table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>STUDENT</th>
+                            <th>MARKS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Arun</td>
+                            <td>85</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Manav</td>
+                            <td>81</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Manu</td>
+                            <td>83</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Pranav</td>
+                            <td>87</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br><br>
+                <hr>
+
+                <div class="container bg-dark">
+                    <h3 class="text-white">LIGHT HEAD</h3>
+                    <table class="table">
+                        <thead class="table-light">
+                            <tr>
+                                <th>#</th>
+                                <th>STUDENT</th>
+                                <th>MARKS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Arun</td>
+                                <td>85</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Manav</td>
+                                <td>81</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Manu</td>
+                                <td>83</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Pranav</td>
+                                <td>87</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br><br>
+                <hr>
+                <h2 class="text-center">TABLE FOOT</h2>
+                <div class="container">
+                    <table class="table ">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>NAME</th>
+                                <th>BRANCH</th>
+                                <th>SELECTED</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Alan</td>
+                                <td>Science</td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Alex</td>
+                                <td>Commerce</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Ajay</td>
+                                <td>Computer-Science</td>
+                                <td>No</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Sam</td>
+                                <td>Humanities</td>
+                                <td>Yes</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Total : </td>
+                                <td>2</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <br><br>
+                <hr>
+                <h2 class="text-center">CAPTION</h2>
+                <p>A <code> < caption> </code> functions like a heading for a table. It helps users with screen readers
+                    to find a table
+                    and understand what it’s about and decide if they want to read it.
+
+                </p>
+                <div class="container">
+                    <table class="table">
+                        <caption>List os students from Commerce Batch-1</caption>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>NAME</th>
+                                <th>PHONE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Ameg</td>
+                                <td>789655234</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ashwin</td>
+                                <td>895412367</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Abhishek</td>
+                                <td>956842310</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Bonny</td>
+                                <td>8974512360</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br><br>
+                You can also put the <code> < caption> </code> on the top of the table with
+                <code>.caption-top.</code>
+                <div class="container">
+                    <table class="table caption-top">
+                        <caption>List os students from Commerce Batch-1</caption>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>NAME</th>
+                                <th>PHONE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Ameg</td>
+                                <td>789655234</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ashwin</td>
+                                <td>895412367</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Abhishek</td>
+                                <td>956842310</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Bonny</td>
+                                <td>8974512360</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br><br><br>
+                <hr>
+                <h1>RESPONSIVE TABLES</h1>
+                <p>Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive
+                    across all viewports by wrapping a <code> .table </code> with <code> .table-responsive.</code> Or,
+                    pick a maximum breakpoint with
+                    which to have a responsive table up to by using
+                    <code> .table-responsive{-sm|-md|-lg|-xl|-xxl}. </code>
+                </p>
+                <div class="container">
+                    <table class="table table-responsive">
+                        <thead class="text-center">
+                            <tr>
+                                <th>#</th>
+                                <th>ITEM</th>
+                                <th>PRICE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Sunscreen</td>
+                                <td>500/-</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Moisturizer</td>
+                                <td>450/-</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Serum</td>
+                                <td>899/-</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Lip Balm</td>
+                                <td>200/-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h2>BREALPOINT SPECIFIC</h2>
+                <p>Use <code> .table-responsive{-sm|-md|-lg|-xl|-xxl} </code> as needed to create responsive tables up
+                    to a particular
+                    breakpoint. From that breakpoint and up, the table will behave normally and not scroll horizontally.
+                </p>
+                <div class="container">
+                    <h3>table-responsive-sm</h3>
+                    <table class="table table-responsive-sm">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>NAME</th>
+                                <th>PHONE</th>
+                            </tr>
+                        </thead>
+                        <tbody">
+                            <tr>
+                                <td>1</td>
+                                <td>Ameg</td>
+                                <td>789655234</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ashwin</td>
+                                <td>895412367</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Abhishek</td>
+                                <td>956842310</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Bonny</td>
+                                <td>8974512360</td>
+                            </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h3>table-responsive-md</h3>
+        <table class="table table-responsive-md">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>NAME</th>
+                    <th>PHONE</th>
+                </tr>
+            </thead>
+            <tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Ameg</td>
+                    <td>789655234</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ashwin</td>
+                    <td>895412367</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Abhishek</td>
+                    <td>956842310</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bonny</td>
+                    <td>8974512360</td>
+                </tr>
+                </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h3>table-responsive-lg</h3>
+        <table class="table table-responsive-lg">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>NAME</th>
+                    <th>PHONE</th>
+                </tr>
+            </thead>
+            <tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Ameg</td>
+                    <td>789655234</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ashwin</td>
+                    <td>895412367</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Abhishek</td>
+                    <td>956842310</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bonny</td>
+                    <td>8974512360</td>
+                </tr>
+                </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h3>table-responsive-xl</h3>
+        <table class="table table-responsive-xl">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>NAME</th>
+                    <th>PHONE</th>
+                </tr>
+            </thead>
+            <tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Ameg</td>
+                    <td>789655234</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ashwin</td>
+                    <td>895412367</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Abhishek</td>
+                    <td>956842310</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bonny</td>
+                    <td>8974512360</td>
+                </tr>
+                </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <h3>table-responsive-xxl</h3>
+        <table class="table table-responsive-xxl">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>NAME</th>
+                    <th>PHONE</th>
+                </tr>
+            </thead>
+            <tbody">
+                <tr>
+                    <td>1</td>
+                    <td>Ameg</td>
+                    <td>789655234</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ashwin</td>
+                    <td>895412367</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Abhishek</td>
+                    <td>956842310</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bonny</td>
+                    <td>8974512360</td>
+                </tr>
+                </tbody>
+        </table>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

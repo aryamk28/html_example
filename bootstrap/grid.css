@@ -1,0 +1,46 @@
+* {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label {
+    font-weight: bolder;
+    margin-top: 50px;
+    color: chocolate;
+}
+
+.lab {
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.sub {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+}
+
+.grid-box {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    background-color: darkgrey;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin: 20px;
+
+}
+
+.grid>div {
+    background-color: cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+
+}
