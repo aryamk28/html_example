@@ -1,0 +1,36 @@
+#display {
+    width: 240px;
+    height: 100px;
+    font-size: 40px;
+}
+
+.one {
+    display: flex;
+    gap: 20px;
+}
+
+.green {
+    background-color: rgb(58, 152, 58);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.blue {
+    background-color: rgb(57, 99, 236);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* .blue button:hover {
+    background-color: rgb(89, 123, 235);
+}
+
+button:hover {
+    background-color: rgb(96, 185, 96);
+} */

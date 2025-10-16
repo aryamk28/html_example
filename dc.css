@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(2, 155, 2);
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 150px;
+    padding-left: 160px;
+}

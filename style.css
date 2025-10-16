@@ -1,0 +1,21 @@
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: cadetblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnContainer {
+    justify-content: center;
+    align-items: center;
+}
